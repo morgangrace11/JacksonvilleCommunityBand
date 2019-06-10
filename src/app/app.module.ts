@@ -13,7 +13,10 @@ import { EventsComponent } from './events/events.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      { path: '', component: HomePageComponent }
+      { path: '', component: HomePageComponent },
+      { path: 'about', component: AboutUsComponent },
+      { path: 'contact', component: ContactComponent },
+      { path: 'events', component: EventsComponent }
     ])
   ],
   declarations: [
