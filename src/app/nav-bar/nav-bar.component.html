@@ -1,7 +1,12 @@
-<div class="nav">
+<mat-toolbar color="primary">
+
   <h2>Jacksonville Community Band</h2>
-  <div [routerLink]="['/']">Home</div>
-  <div [routerLink]="['/about']">About Us</div>
-  <div [routerLink]="['/contact']">Contact Us</div>
-  <div [routerLink]="['/events']">Events</div>
-</div>
+
+  <span class="example-fill-remaining-space"></span>
+
+  <a mat-button class="nav-button" [routerLink]="['/']">Home</a>
+  <a mat-button class="nav-button" [routerLink]="['/about']">About Us</a>
+  <a mat-button class="nav-button" [routerLink]="['/contact']">Contact Us</a>
+  <a mat-button class="nav-button" [routerLink]="['/events']">Events</a>
+
+</mat-toolbar>
