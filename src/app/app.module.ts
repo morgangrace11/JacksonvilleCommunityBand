@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutModule } from '@angular/cdk/layout';
-import { MatToolbarModule, MatButtonModule, MatGridListModule } from '@angular/material';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatToolbarModule, MatButtonModule, MatGridListModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
@@ -11,6 +12,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactComponent } from './contact/contact.component';
 import { EventsComponent } from './events/events.component';
+import { NavpracticeComponent } from './navpractice/navpractice.component';
 
 @NgModule({
   imports: [
@@ -23,9 +25,13 @@ import { EventsComponent } from './events/events.component';
     ]),
     BrowserAnimationsModule,
     LayoutModule,
+    FlexLayoutModule,
     MatToolbarModule,
     MatButtonModule,
     MatGridListModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
   ],
   declarations: [
     AppComponent,
@@ -33,7 +39,8 @@ import { EventsComponent } from './events/events.component';
     NavBarComponent,
     AboutUsComponent,
     ContactComponent,
-    EventsComponent
+    EventsComponent,
+    NavpracticeComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
