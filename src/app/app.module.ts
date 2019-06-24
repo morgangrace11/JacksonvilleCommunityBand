@@ -12,7 +12,6 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactComponent } from './contact/contact.component';
 import { EventsComponent } from './events/events.component';
-import { NavpracticeComponent } from './navpractice/navpractice.component';
 
 @NgModule({
   imports: [
@@ -40,7 +39,6 @@ import { NavpracticeComponent } from './navpractice/navpractice.component';
     AboutUsComponent,
     ContactComponent,
     EventsComponent,
-    NavpracticeComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
