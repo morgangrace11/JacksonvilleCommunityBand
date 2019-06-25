@@ -1,6 +1,6 @@
 <mat-toolbar color="primary">
 
-  <h2>Jacksonville Community Band</h2>
+  <h2 [routerLink]="['/']">Jacksonville Community Band</h2>
 
   <span class="example-fill-remaining-space"></span>
   <div fxShow="true" fxHide.lt-md="true">
@@ -27,6 +27,6 @@
     </div>
   </mat-sidenav>
   <mat-sidenav-content>
-    <router-outlet></router-outlet>
+    <router-outlet class="content"></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>

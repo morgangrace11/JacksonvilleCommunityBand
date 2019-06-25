@@ -11,10 +11,22 @@
   flex: 1 1 auto;
 }
 .mat-toolbar.mat-primary {
-  background: #212020;
-  color: #fff;
+  background-color: rgba(61, 60, 60);
+  color: rgb(255, 255, 255);
 }
 
+.mat-sidenav {
+  background-color: #7ea4b3;
+  color: rgb(255, 255, 255);
+}
 .mat-sidenav-content {
-  background-color: #212020;
+  background-image: url("../../assets/sheetmusic1.jpg");
+  background-size: cover;
+  background-repeat: none;
+  overflow: visible;
+  height: 100%;
+}
+
+.content::before {
+  opacity: 0.6;
 }
