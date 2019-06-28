@@ -1,12 +1,13 @@
 <div>
 <br />
 <h1 class="title">Events</h1>
-<div class="center">
-<div *ngFor="let event of events">
-  <p>{{ event.name }} -- {{ event.date }}</p>
-  <p>Where: {{ event.where }}</p>
-  <p>Time: {{ event.time }}</p>
-</div>
-</div>
-<br />
+
+<mat-list class="center">
+  <mat-list-item class="text">
+    <h2 matLine class="heading">Fourth of July Concert</h2>
+    <p matLine>When: 7/6/2019 at 11:00 AM</p>
+    <p matLine class="where">Where: Terry Parker Baptist 7024 Merrill Rd, Jacksonville, FL 32277</p>
+  </mat-list-item>
+</mat-list>
+
 </div>
