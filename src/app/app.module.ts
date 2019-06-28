@@ -23,7 +23,9 @@ import { GalleryComponent } from './gallery/gallery.component';
       { path: '', component: HomePageComponent },
       { path: 'about', component: AboutUsComponent },
       { path: 'contact', component: ContactComponent },
-      { path: 'events', component: EventsComponent }
+      { path: 'events', component: EventsComponent },
+      { path: 'gallery', component: GalleryComponent },
+      { path: 'people', component: PeopleComponent }
     ]),
     BrowserAnimationsModule,
     LayoutModule,

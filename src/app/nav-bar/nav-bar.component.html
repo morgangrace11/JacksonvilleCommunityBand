@@ -6,8 +6,10 @@
   <div fxShow="true" fxHide.lt-md="true">
     <a mat-button class="nav-button" [routerLink]="['/']">Home</a>
     <a mat-button class="nav-button" [routerLink]="['/about']">About Us</a>
-    <a mat-button class="nav-button" [routerLink]="['/contact']">Contact Us</a>
+    <a mat-button class="nav-button" [routerLink]="['/people']">People</a>
+    <a mat-button class="nav-button" [routerLink]="['/gallery']">Gallery</a>
     <a mat-button class="nav-button" [routerLink]="['/events']">Events</a>
+    <a mat-button class="nav-button" [routerLink]="['/contact']">Contact Us</a>
   </div>
 
   <div fxShow="true" fxHide.gt-sm="true">
@@ -22,8 +24,10 @@
     <div fxLayout="column">
       <a (click)="sidenav.toggle()" href="#" mat-button class="nav-button" [routerLink]="['/']">Home</a>
       <a (click)="sidenav.toggle()" href="#" mat-button class="nav-button" [routerLink]="['/about']">About Us</a>
-      <a (click)="sidenav.toggle()" href="#" mat-button class="nav-button" [routerLink]="['/contact']">Contact Us</a>
+      <a (click)="sidenav.toggle()" href="#" mat-button class="nav-button" [routerLink]="['/people']">People</a>
+      <a (click)="sidenav.toggle()" href="#" mat-button class="nav-button" [routerLink]="['/gallery']">Gallery</a>
       <a (click)="sidenav.toggle()" href="#" mat-button class="nav-button" [routerLink]="['/events']">Events</a>
+      <a (click)="sidenav.toggle()" href="#" mat-button class="nav-button" [routerLink]="['/contact']">Contact Us</a>
     </div>
   </mat-sidenav>
   <mat-sidenav-content>
