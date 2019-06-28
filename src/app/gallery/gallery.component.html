@@ -1,3 +1,40 @@
-<p>
-  gallery works!
-</p>
+<div class="gallery">
+<mat-grid-list cols="4" rowHeight="8:4">
+    <mat-grid-tile class="grid-tile" [colspan]="2" [rowspan]="2">
+      <img src="assets/band.jpg" height="100%" width="100%">
+    </mat-grid-tile>
+    <mat-grid-tile >
+      <img src="assets/band2.jpg" height="100%" width="100%">
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <img src="assets/band2.jpg" height="100%" width="100%">
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <img src="assets/band2.jpg" height="100%" width="100%">
+      </mat-grid-tile>
+    <mat-grid-tile [colspan]="1" [rowspan]="2">
+      <img src="assets/band3.jpg" height="100%" width="100%">
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <img src="assets/band2.jpg" height="100%" width="100%">
+      </mat-grid-tile>
+    <mat-grid-tile>
+      <img src="assets/band3.jpg" height="100%" width="100%">
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <img src="assets/band3.jpg" height="100%" width="100%">
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="2" [rowspan]="1">
+        <img src="assets/band3.jpg" height="100%" width="100%">
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <img src="assets/band3.jpg" height="100%" width="100%">
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <img src="assets/band3.jpg" height="100%" width="100%">
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="4" [rowspan]="1">
+        <img src="assets/band3.jpg" height="100%" width="100%">
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
