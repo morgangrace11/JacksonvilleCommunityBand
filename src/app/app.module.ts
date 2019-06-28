@@ -12,6 +12,9 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactComponent } from './contact/contact.component';
 import { EventsComponent } from './events/events.component';
+import { FooterComponent } from './footer/footer.component';
+import { PeopleComponent } from './people/people.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   imports: [
@@ -39,6 +42,9 @@ import { EventsComponent } from './events/events.component';
     AboutUsComponent,
     ContactComponent,
     EventsComponent,
+    FooterComponent,
+    PeopleComponent,
+    GalleryComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
